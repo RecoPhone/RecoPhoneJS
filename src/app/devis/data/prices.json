@@ -1,0 +1,9182 @@
+{
+  "version": 2,
+  "devices": [
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad 10.2 (2019)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "touchscreen",
+          "label": "Vitre (Touchscreen)",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "lcd",
+          "label": "LCD",
+          "variants": [
+            {
+              "price": 114.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad 10.2 (2021)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "touchscreen",
+          "label": "Vitre (Touchscreen)",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "lcd",
+          "label": "LCD",
+          "variants": [
+            {
+              "price": 114.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad 9.7 (2017)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "touchscreen",
+          "label": "Vitre (Touchscreen)",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "lcd",
+          "label": "LCD",
+          "variants": [
+            {
+              "price": 104.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad 9.7 (2018)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "touchscreen",
+          "label": "Vitre (Touchscreen)",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "lcd",
+          "label": "LCD",
+          "variants": [
+            {
+              "price": 104.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Air (2013)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "touchscreen",
+          "label": "Vitre (Touchscreen)",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "lcd",
+          "label": "LCD",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Air 2 (2014)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran bloc complet",
+          "variants": [
+            {
+              "price": 169.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Air 3 (2019)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran bloc complet",
+          "variants": [
+            {
+              "price": 189.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Air 4 (2020)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran bloc complet",
+          "variants": [
+            {
+              "price": 239.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Air 5 (2022)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran bloc complet",
+          "variants": [
+            {
+              "price": 249.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Mini 5 (2019)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Pro 10.5 (2017)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran bloc complet",
+          "variants": [
+            {
+              "price": 259.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Pro 11 (2018)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran bloc complet",
+          "variants": [
+            {
+              "price": 329.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Pro 11 (2020)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran bloc complet",
+          "variants": [
+            {
+              "price": 329.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Pro 11 (2021)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran bloc complet",
+          "variants": [
+            {
+              "price": 329.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Pro 12.9 (2020)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran bloc complet",
+          "variants": [
+            {
+              "price": 339.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 139.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Pro 12.9 (2021)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran bloc complet",
+          "variants": [
+            {
+              "price": 349.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 139.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPad",
+      "model": "iPad Pro 9.7 (2016)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "lcd",
+          "label": "Écran bloc complet",
+          "variants": [
+            {
+              "price": 249.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 11",
+      "aliases": [],
+      "colors": [
+        "Purple",
+        "Green",
+        "Yellow",
+        "Black",
+        "White",
+        "PRODUCT(RED)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 11 Pro",
+      "aliases": [],
+      "colors": [
+        "Midnight Green",
+        "Space Gray",
+        "Silver",
+        "Gold"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 11 Pro Max",
+      "aliases": [],
+      "colors": [
+        "Midnight Green",
+        "Space Gray",
+        "Silver",
+        "Gold"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 179.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 12",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "White",
+        "PRODUCT(RED)",
+        "Green",
+        "Blue",
+        "Purple"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 12 Mini",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "White",
+        "PRODUCT(RED)",
+        "Green",
+        "Blue",
+        "Purple"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 139.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 12 Pro",
+      "aliases": [],
+      "colors": [
+        "Graphite",
+        "Silver",
+        "Gold",
+        "Pacific Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 179.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 124.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 12 Pro Max",
+      "aliases": [],
+      "colors": [
+        "Graphite",
+        "Silver",
+        "Gold",
+        "Pacific Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 219.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 13",
+      "aliases": [],
+      "colors": [
+        "Pink",
+        "Blue",
+        "Midnight",
+        "Starlight",
+        "PRODUCT(RED)",
+        "Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 199.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 13 Mini",
+      "aliases": [],
+      "colors": [
+        "Pink",
+        "Blue",
+        "Midnight",
+        "Starlight",
+        "PRODUCT(RED)",
+        "Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 179.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 13 Pro",
+      "aliases": [],
+      "colors": [
+        "Graphite",
+        "Gold",
+        "Silver",
+        "Sierra Blue",
+        "Alpine Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 259.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 13 Pro Max",
+      "aliases": [],
+      "colors": [
+        "Graphite",
+        "Gold",
+        "Silver",
+        "Sierra Blue",
+        "Alpine Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 319.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 189.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 14",
+      "aliases": [],
+      "colors": [
+        "Midnight",
+        "Starlight",
+        "PRODUCT(RED)",
+        "Blue",
+        "Purple",
+        "Yellow"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 209.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 189.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 14 Plus",
+      "aliases": [],
+      "colors": [
+        "Midnight",
+        "Starlight",
+        "PRODUCT(RED)",
+        "Blue",
+        "Purple",
+        "Yellow"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 219.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 189.0
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 14 Pro",
+      "aliases": [],
+      "colors": [
+        "Space Black",
+        "Silver",
+        "Gold",
+        "Deep Purple"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 329.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 219.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 14 Pro Max",
+      "aliases": [],
+      "colors": [
+        "Space Black",
+        "Silver",
+        "Gold",
+        "Deep Purple"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 379.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 219.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 15",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "Blue",
+        "Green",
+        "Yellow",
+        "Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 279.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 234.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 15 Plus",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "Blue",
+        "Green",
+        "Yellow",
+        "Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 289.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 234.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 15 Pro",
+      "aliases": [],
+      "colors": [
+        "Black Titanium",
+        "White Titanium",
+        "Blue Titanium",
+        "Natural Titanium"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 389.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 94.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 234.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 15 Pro Max",
+      "aliases": [],
+      "colors": [
+        "Black Titanium",
+        "White Titanium",
+        "Blue Titanium",
+        "Natural Titanium"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 419.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 94.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 319.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 16",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 419.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 94.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 419.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 16 Plus",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 419.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 94.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 419.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 16 Pro",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 619.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 94.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 419.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 16 Pro Max",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 649.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 94.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 419.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 8",
+      "aliases": [],
+      "colors": [
+        "Space Gray",
+        "Silver",
+        "Gold",
+        "PRODUCT(RED)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 34.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 48.0
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone 8 Plus",
+      "aliases": [],
+      "colors": [
+        "Space Gray",
+        "Silver",
+        "Gold",
+        "PRODUCT(RED)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 34.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone SE 2020",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "White",
+        "PRODUCT(RED)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 34.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone SE 2022",
+      "aliases": [],
+      "colors": [
+        "Midnight",
+        "Starlight",
+        "PRODUCT(RED)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 34.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone X",
+      "aliases": [],
+      "colors": [
+        "Space Gray",
+        "Silver"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 34.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone XR",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "White",
+        "Blue",
+        "Yellow",
+        "Coral",
+        "PRODUCT(RED)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 34.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 128.0
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone XS",
+      "aliases": [],
+      "colors": [
+        "Space Gray",
+        "Silver",
+        "Gold"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 34.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "family": "iPhone",
+      "model": "iPhone XS Max",
+      "aliases": [],
+      "colors": [
+        "Space Gray",
+        "Silver",
+        "Gold"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 34.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 94.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "label": "Châssis",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "camera_lens",
+          "label": "Lentille caméra",
+          "variants": [
+            {
+              "price": 14.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A12",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 55.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A12 Nacho",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 55.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A13",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 55.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A14",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "Light Green",
+        "Silver",
+        "Dark Red"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 55.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A15",
+      "aliases": [],
+      "colors": [
+        "Blue Black",
+        "Light Blue",
+        "Yellow",
+        "Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 55.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A20",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A20e",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A20s",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A21s",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A22",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A33",
+      "aliases": [],
+      "colors": [
+        "Awesome Black",
+        "Awesome Blue",
+        "Awesome White",
+        "Awesome Peach"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 63.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A34",
+      "aliases": [],
+      "colors": [
+        "Awesome Graphite",
+        "Awesome Lime",
+        "Awesome Silver",
+        "Awesome Violet"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 134.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A35",
+      "aliases": [],
+      "colors": [
+        "Awesome Iceblue",
+        "Awesome Lilac",
+        "Awesome Lemon",
+        "Awesome Navy"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A40",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A41",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A42",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A50",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "Blue",
+        "White",
+        "Coral"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A51",
+      "aliases": [],
+      "colors": [
+        "Prism Crush Black",
+        "Prism Crush White",
+        "Prism Crush Blue",
+        "Prism Crush Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A52",
+      "aliases": [],
+      "colors": [
+        "Awesome Violet",
+        "Awesome Black",
+        "Awesome White",
+        "Awesome Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A52s",
+      "aliases": [],
+      "colors": [
+        "Awesome Violet",
+        "Awesome Black",
+        "Awesome White",
+        "Awesome Mint"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A53",
+      "aliases": [],
+      "colors": [
+        "Awesome Black",
+        "Awesome Blue",
+        "Awesome White",
+        "Awesome Peach"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A54",
+      "aliases": [],
+      "colors": [
+        "Awesome Lime",
+        "Awesome Graphite",
+        "Awesome Violet",
+        "Awesome White"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 134.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A55",
+      "aliases": [],
+      "colors": [
+        "Awesome Iceblue",
+        "Awesome Lilac",
+        "Awesome Lemon",
+        "Awesome Navy"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A70",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 104.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A71",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 124.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A72",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 134.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy A",
+      "model": "Samsung Galaxy A73",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 62.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S10",
+      "aliases": [],
+      "colors": [
+        "Prism White",
+        "Prism Black",
+        "Prism Green",
+        "Prism Blue",
+        "Flamingo Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 234.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 100.0
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S10 +",
+      "aliases": [],
+      "colors": [
+        "Prism White",
+        "Prism Black",
+        "Prism Green",
+        "Prism Blue",
+        "Ceramic Black",
+        "Ceramic White",
+        "Flamingo Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 244.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 100.0
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S10e",
+      "aliases": [],
+      "colors": [
+        "Prism White",
+        "Prism Black",
+        "Prism Green",
+        "Prism Blue",
+        "Canary Yellow",
+        "Flamingo Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 189.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 100.0
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S20",
+      "aliases": [],
+      "colors": [
+        "Cosmic Gray",
+        "Cloud Blue",
+        "Cloud Pink",
+        "Cloud White",
+        "Aura Red"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 239.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 94.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S20 +",
+      "aliases": [],
+      "colors": [
+        "Cosmic Black",
+        "Cosmic Gray",
+        "Cloud Blue",
+        "Cloud White"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 259.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S20 FE",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S20 Ultra",
+      "aliases": [],
+      "colors": [
+        "Cosmic Gray",
+        "Cosmic Black"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 269.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 194.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S21",
+      "aliases": [],
+      "colors": [
+        "Phantom Gray",
+        "Phantom White",
+        "Phantom Violet",
+        "Phantom Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 209.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S21 +",
+      "aliases": [],
+      "colors": [
+        "Phantom Black",
+        "Phantom Silver",
+        "Phantom Violet",
+        "Phantom Gold (Online)",
+        "Phantom Red (Online)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 219.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S21 FE",
+      "aliases": [],
+      "colors": [
+        "Graphite",
+        "Mint",
+        "Cream",
+        "Lavender"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 159.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S21 Ultra",
+      "aliases": [],
+      "colors": [
+        "Phantom Black",
+        "Phantom Silver",
+        "Navy (Online)",
+        "Brown (Online)",
+        "Titanium (Online)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 289.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S22",
+      "aliases": [],
+      "colors": [
+        "Phantom Black",
+        "Phantom White",
+        "Green",
+        "Pink Gold",
+        "Graphite (Online)",
+        "Cream (Online)",
+        "Sky Blue (Online)",
+        "Violet (Online)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 219.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S22 +",
+      "aliases": [],
+      "colors": [
+        "Phantom Black",
+        "Phantom White",
+        "Green",
+        "Pink Gold",
+        "Graphite (Online)",
+        "Cream (Online)",
+        "Sky Blue (Online)",
+        "Violet (Online)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 199.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S22 Ultra",
+      "aliases": [],
+      "colors": [
+        "Phantom Black",
+        "Phantom White",
+        "Green",
+        "Burgundy",
+        "Graphite (Online)",
+        "Sky Blue (Online)",
+        "Red (Online)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 299.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S23",
+      "aliases": [],
+      "colors": [
+        "Phantom Black",
+        "Cream",
+        "Green",
+        "Lavender",
+        "Graphite (Online)",
+        "Lime (Online)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 219.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S23 +",
+      "aliases": [],
+      "colors": [
+        "Phantom Black",
+        "Cream",
+        "Green",
+        "Lavender",
+        "Graphite (Online)",
+        "Lime (Online)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 229.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S23 Ultra",
+      "aliases": [],
+      "colors": [
+        "Phantom Black",
+        "Cream",
+        "Green",
+        "Lavender",
+        "Graphite (Online)",
+        "Lime (Online)",
+        "Sky Blue (Online)",
+        "Red (Online)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 399.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S24",
+      "aliases": [],
+      "colors": [
+        "Marble Gray",
+        "Onyx Black",
+        "Cobalt Violet",
+        "Amber Yellow",
+        "Jade Green (Online)",
+        "Sapphire Blue (Online)",
+        "Sandstone Orange (Online)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 189.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S24 +",
+      "aliases": [],
+      "colors": [
+        "Marble Gray",
+        "Onyx Black",
+        "Cobalt Violet",
+        "Amber Yellow",
+        "Jade Green (Online)",
+        "Sapphire Blue (Online)",
+        "Sandstone Orange (Online)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 224.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 69.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S24 Ultra",
+      "aliases": [],
+      "colors": [
+        "Titanium Black",
+        "Titanium Gray",
+        "Titanium Violet",
+        "Titanium Yellow",
+        "Titanium Green (Online)",
+        "Titanium Blue (Online)",
+        "Titanium Orange (Online)"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 319.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S8",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Orchid Gray",
+        "Arctic Silver",
+        "Coral Blue",
+        "Maple Gold",
+        "Rose Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 179.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S8 +",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Orchid Gray",
+        "Arctic Silver",
+        "Coral Blue",
+        "Maple Gold",
+        "Rose Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 209.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S9",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Lilac Purple",
+        "Coral Blue",
+        "Titanium Gray",
+        "Sunrise Gold",
+        "Burgundy Red",
+        "Ice Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 179.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 39.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Galaxy S",
+      "model": "Samsung Galaxy S9 +",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Lilac Purple",
+        "Coral Blue",
+        "Titanium Gray",
+        "Sunrise Gold",
+        "Burgundy Red",
+        "Ice Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 199.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "camera_front",
+          "label": "Caméra avant",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "camera_rear",
+          "label": "Caméra arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab A",
+      "model": "Samsung Tab A 10.1 (T580)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 154.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab A",
+      "model": "Samsung Tab A 10.1 (T585)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 154.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab A",
+      "model": "Samsung Tab A 10.1 2019 (T510)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab A",
+      "model": "Samsung Tab A 10.1 2019 (T515)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab A",
+      "model": "Samsung Tab A 10.5 (T590)",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 174.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab S",
+      "model": "Samsung Tab S8",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 244.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab S",
+      "model": "Samsung Tab S8 +",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 399.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab S",
+      "model": "Samsung Tab S8 Ultra",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 499.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab S",
+      "model": "Samsung Tab S9",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 289.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab S",
+      "model": "Samsung Tab S9 +",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 349.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab S",
+      "model": "Samsung Tab S9 FE",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 229.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab S",
+      "model": "Samsung Tab S9 FE +",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 259.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "family": "Tab S",
+      "model": "Samsung Tab S9 Ultra",
+      "aliases": [],
+      "colors": [],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 499.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 10",
+      "aliases": [],
+      "colors": [
+        "Coral Green",
+        "Twilight Gray",
+        "Peach Gold"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 204.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 10 Lite",
+      "aliases": [],
+      "colors": [
+        "Aurora Blue",
+        "Cosmic Gray",
+        "Dream White"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 114.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 10T",
+      "aliases": [],
+      "colors": [
+        "Cosmic Black",
+        "Lunar Silver"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 10T Lite",
+      "aliases": [],
+      "colors": [
+        "Atlantic Blue",
+        "Pearl Gray",
+        "Rose Gold Beach"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 109.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 11",
+      "aliases": [],
+      "colors": [
+        "Midnight Gray",
+        "Horizon Blue",
+        "Frost White"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 229.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 11 Lite",
+      "aliases": [],
+      "colors": [
+        "Truffle Black",
+        "Bubblegum Blue",
+        "Peach Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 11 Ultra",
+      "aliases": [],
+      "colors": [
+        "Ceramic Black",
+        "Ceramic White"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 397.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 11T",
+      "aliases": [],
+      "colors": [
+        "Meteorite Gray",
+        "Moonlight White",
+        "Celestial Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 11T Pro",
+      "aliases": [],
+      "colors": [
+        "Meteorite Gray",
+        "Moonlight White",
+        "Celestial Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 12",
+      "aliases": [],
+      "colors": [
+        "Gray",
+        "Blue",
+        "Purple",
+        "Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 12 Lite 5G",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "Lite Green",
+        "Lite Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 159.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 12 Pro",
+      "aliases": [],
+      "colors": [
+        "Gray",
+        "Blue",
+        "Purple"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 229.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 12T",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "Silver",
+        "Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 199.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 12T Pro",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "Silver",
+        "Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 199.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 13",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "White",
+        "Flora Green",
+        "Mountain Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 319.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 49.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 13 Lite",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "Lite Blue",
+        "Lite Pink"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 139.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 13 Pro",
+      "aliases": [],
+      "colors": [
+        "Ceramic Black",
+        "Ceramic White",
+        "Flora Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 299.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi",
+      "model": "Xiaomi MI 14",
+      "aliases": [],
+      "colors": [
+        "Black",
+        "White",
+        "Jade Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 309.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi Note",
+      "model": "Xiaomi MI Note 10",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Aurora Green",
+        "Glacier White"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi Note",
+      "model": "Xiaomi MI Note 10 Lite",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Glacier White",
+        "Nebula Purple"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Mi Note",
+      "model": "Xiaomi MI Note 10 Pro",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Aurora Green",
+        "Glacier White"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi",
+      "model": "Xiaomi Redmi 10",
+      "aliases": [],
+      "colors": [
+        "Carbon Gray",
+        "Pebble White",
+        "Sea Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 89.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi",
+      "model": "Xiaomi Redmi 10 (2022)",
+      "aliases": [],
+      "colors": [
+        "Carbon Gray",
+        "Pebble White",
+        "Sea Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 129.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi",
+      "model": "Xiaomi Redmi 10A",
+      "aliases": [],
+      "colors": [
+        "Graphite Gray",
+        "Chrome Silver",
+        "Sky Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi",
+      "model": "Xiaomi Redmi 10C",
+      "aliases": [],
+      "colors": [
+        "Graphite Gray",
+        "Ocean Blue",
+        "Mint Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi",
+      "model": "Xiaomi Redmi 12",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Sky Blue",
+        "Polar Silver"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 84.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi",
+      "model": "Xiaomi Redmi 12C",
+      "aliases": [],
+      "colors": [
+        "Graphite Gray",
+        "Ocean Blue",
+        "Mint Green",
+        "Lavender Purple"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi",
+      "model": "Xiaomi Redmi 13C",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Navy Blue",
+        "Clover Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi",
+      "model": "Xiaomi Redmi 9",
+      "aliases": [],
+      "colors": [
+        "Carbon Gray",
+        "Ocean Green",
+        "Sunset Purple"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi",
+      "model": "Xiaomi Redmi 9A",
+      "aliases": [],
+      "colors": [
+        "Granite Gray",
+        "Peacock Green",
+        "Sky Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi",
+      "model": "Xiaomi Redmi 9C",
+      "aliases": [],
+      "colors": [
+        "Midnight Gray",
+        "Sunrise Orange",
+        "Twilight Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 74.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi",
+      "model": "Xiaomi Redmi 9T",
+      "aliases": [],
+      "colors": [
+        "Carbon Gray",
+        "Sunrise Orange",
+        "Twilight Blue",
+        "Ocean Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "charge_port",
+          "label": "Dock de charge",
+          "variants": [
+            {
+              "price": 44.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 59.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 10",
+      "aliases": [],
+      "colors": [
+        "Onyx Gray",
+        "Pebble White",
+        "Lake Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 10 Lite",
+      "aliases": [],
+      "colors": [
+        "Aurora Blue",
+        "Champagne Gold",
+        "Glacier White"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 79.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 10 Pro",
+      "aliases": [],
+      "colors": [
+        "Onyx Gray",
+        "Glacier Blue",
+        "Gradient Bronze"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 10S",
+      "aliases": [],
+      "colors": [
+        "Ocean Blue",
+        "Onyx Gray",
+        "Pebble White"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 139.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 10T",
+      "aliases": [],
+      "colors": [
+        "Metallic Blue",
+        "Mint Green",
+        "Graphite Black"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 11",
+      "aliases": [],
+      "colors": [
+        "Graphite Gray",
+        "Twilight Blue",
+        "Star Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 11 Pro Plus",
+      "aliases": [],
+      "colors": [
+        "Graphite Black",
+        "Forest Green",
+        "Star Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 199.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 11S",
+      "aliases": [],
+      "colors": [
+        "Graphite Gray",
+        "Twilight Blue",
+        "Pearl White"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 139.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 11SE",
+      "aliases": [],
+      "colors": [
+        "Shadow Black",
+        "Sea Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 12",
+      "aliases": [],
+      "colors": [
+        "Onyx Gray",
+        "Ice Blue",
+        "Mint Green"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 99.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 12 Pro",
+      "aliases": [],
+      "colors": [
+        "Onyx Black",
+        "Arctic White",
+        "Sky Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 12 Pro +",
+      "aliases": [],
+      "colors": [
+        "Arctic White",
+        "Onyx Black",
+        "Sky Blue"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 12S",
+      "aliases": [],
+      "colors": [
+        "Ice Blue",
+        "Pearl Green",
+        "Onyx Black"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 54.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 13",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Mint Green",
+        "Ice Blue",
+        "Ocean Sunset"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 119.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 13 Pro",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Forest Green",
+        "Sky Blue",
+        "Polar White"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 229.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "family": "Redmi Note",
+      "model": "Xiaomi Redmi Note 13 Pro +",
+      "aliases": [],
+      "colors": [
+        "Midnight Black",
+        "Moonlight White",
+        "Aurora Purple"
+      ],
+      "repairs": [
+        {
+          "type": "screen",
+          "label": "Écran",
+          "variants": [
+            {
+              "price": 149.9
+            }
+          ]
+        },
+        {
+          "type": "battery",
+          "label": "Batterie",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        },
+        {
+          "type": "back",
+          "label": "Face arrière",
+          "variants": [
+            {
+              "price": 64.9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
