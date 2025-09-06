@@ -3,6 +3,9 @@ import { NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
 import { PRICE_IDS, type PlanKey } from "@/lib/pricing";
 
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+
 type CartItem = {
   id: string;
   title: string;

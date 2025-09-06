@@ -1,7 +1,7 @@
 import type Stripe from "stripe";
 import { stripe } from "@/lib/stripe";
 
-export const runtime = "nodejs";          // Pas d'Edge: on a besoin du raw body
+export const runtime = "nodejs";       
 export const dynamic = "force-dynamic";
 
 // Helper: récupère l'ID de subscription d'une invoice de manière TS-safe
