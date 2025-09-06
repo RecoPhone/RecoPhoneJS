@@ -1,12 +1,16 @@
 'use client';
 
+import Image from 'next/image';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { useCart, type CartItem } from '@/components/CartProvider';
+// ⚠️ adapte ce chemin si besoin (dans ton projet, c'est souvent "@/components/cart/CartProvider")
+import { useCart } from '@/components/CartProvider';
 import type { UtopyaItem } from '@/types/smartphones';
 
-/* ===========================
-   Prix (TTC)
-=========================== */
+const passthroughLoader = ({ src }: { src: string }) => src;
+
+/* =========================================================
+   Prix (TTC) : parsing robuste + affichage
+========================================================= */
 function parsePriceTTC(price?: string | null): number | null {
   if (!price) return null;
   const s = price.replace(/\u00A0/g, ' ').trim();
@@ -44,19 +48,23 @@ function parsePriceTTC(price?: string | null): number | null {
   }
   return null;
 }
+
 function formatTTCDisplay(ttc: number | null, fallback?: string | null) {
   if (ttc == null) return fallback ?? 'Prix sur demande';
   return ttc.toLocaleString('fr-BE', { style: 'currency', currency: 'EUR' });
 }
-function getPriceTTCFromItem(it: any): number | null {
+
+function getPriceTTCFromItem(
+  it: Partial<UtopyaItem> & { price_raw_eur?: number | null }
+): number | null {
   const raw = it?.price_raw_eur;
   if (typeof raw === 'number' && Number.isFinite(raw)) return raw;
-  return parsePriceTTC(it?.price);
+  return parsePriceTTC(it?.price ?? null);
 }
 
-/* ===========================
-   Normalisation produit
-=========================== */
+/* =========================================================
+   Normalisation produit (marque, grade, récence…)
+========================================================= */
 function brandTag(name?: string | null): 'iPhone' | 'Samsung' | 'iPad' | 'Autre' {
   if (!name) return 'Autre';
   const s = name.toLowerCase();
@@ -65,19 +73,20 @@ function brandTag(name?: string | null): 'iPhone' | 'Samsung' | 'iPad' | 'Autre'
   if (/samsung|galaxy|note|z\s?(flip|fold)/.test(s)) return 'Samsung';
   return 'Autre';
 }
+
 function fallbackCapacity(name?: string | null): string | null {
   if (!name) return null;
   const m = name.match(/(\d+)\s?(GB|Go|TB)/i);
   if (!m) return null;
   return `${m[1]} ${m[2].toUpperCase().replace('GO', 'GB')}`;
 }
+
 type GradeKey = 'A' | 'B' | 'C' | 'MixABC' | 'Autre' | string;
 
 function detectGrade(input: { grade?: string | null; name?: string | null; url?: string | null }): GradeKey {
   const raw = [input.grade, input.name, input.url].filter(Boolean).join(' ');
   if (!raw) return 'Autre';
 
-  // helpers
   const stripAccents = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const t = stripAccents(raw).toLowerCase();
 
@@ -86,15 +95,16 @@ function detectGrade(input: { grade?: string | null; name?: string | null; url?:
   if (/\bgrade?\s*b\+?\b|\bb\+?\b/.test(t)) return 'B';
   if (/\bgrade?\s*c\+?\b|\bc\+?\b/.test(t)) return 'C';
 
-  // S’il y a une forme "grade X" exotique, on la ressort telle quelle (ex: "A+")
   const m = t.match(/\bgrade?\s*([a-z0-9\+]+)/);
   if (m?.[1]) return m[1].toUpperCase();
 
   return 'Autre';
 }
+
 function recencyScore(name?: string | null): number {
   if (!name) return 0;
   const s = name.toLowerCase();
+
   const mIph = s.match(/iphone\s*(\d{1,2})/);
   if (mIph) {
     let base = Number(mIph[1]);
@@ -125,23 +135,13 @@ function recencyScore(name?: string | null): number {
   if (mNote) return 880 + Number(mNote[1]);
   const mA = s.match(/\ba\s?(\d{2,3})\b/);
   if (mA) return 800 + Number(mA[1]) / 10;
+
   return 0;
 }
-function fmtDate(epoch?: number) {
-  if (!epoch) return null;
-  try {
-    return new Date(epoch * 1000).toLocaleString('fr-BE', {
-      day: '2-digit', month: '2-digit', year: 'numeric',
-      hour: '2-digit', minute: '2-digit',
-    });
-  } catch {
-    return null;
-  }
-}
 
-/* ===========================
+/* =========================================================
    ID stable (FNV-1a)
-=========================== */
+========================================================= */
 function fnv1a(str: string): string {
   let h = 0x811c9dc5;
   for (let i = 0; i < str.length; i++) {
@@ -150,7 +150,10 @@ function fnv1a(str: string): string {
   }
   return h.toString(16);
 }
-function buildItemId(p: any): string {
+
+function buildItemId(p: Partial<UtopyaItem> & {
+  capacity?: string | null; grade?: string | null; state?: string | null; color?: string | null;
+}): string {
   const base = [
     p.sku ?? '',
     p.url ?? '',
@@ -163,33 +166,50 @@ function buildItemId(p: any): string {
   return `utp_${fnv1a(base)}`;
 }
 
-/* ===========================
-   Bridge panier
-=========================== */
+/* =========================================================
+   Panier (bridge)
+========================================================= */
+type LocalCartItem = {
+  id: string;
+  title: string;
+  type: 'device' | 'quote' | 'subscription' | string;
+  unitPrice: number; // cents
+  qty: number;
+  meta?: Record<string, unknown>;
+};
+
+function asStringOrNull(v: unknown): string | null {
+  if (v == null) return null;
+  return typeof v === 'string' ? v : String(v);
+}
+
 function useCartBridge() {
   const cart = useCart();
   const ids = useMemo(() => new Set(cart.items.map((it) => String(it.id))), [cart.items]);
-  const addCartItem = (item: CartItem) => cart.addItem(item);
+  const addCartItem = (item: LocalCartItem) => cart.addItem(item as never);
   return { ids, addCartItem };
 }
 
-/* ===========================
-   Couleur (robuste)
-=========================== */
+/* =========================================================
+   Couleur (détection robuste)
+========================================================= */
 type ColorExtraction = {
   raw: string | null;
   normalized: string | null;
   source: 'field' | 'url' | 'name' | 'image' | null;
 };
+
 const AMBIGUOUS = ['mix color', 'mix', 'assorti', 'assorted', 'various', 'random', 'multi', 'multicolor'];
 
 function stripAccents(s: string) {
   return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
+
 function normText(s?: string | null) {
   if (!s) return '';
   return stripAccents(String(s).toLowerCase()).replace(/[_-]+/g, ' ');
 }
+
 const COLOR_PATTERNS: Array<{ re: RegExp; label: string }> = [
   { re: /\bminuit\b|\bmidnight\b/, label: 'Minuit' },
   { re: /\bstarlight\b/, label: 'Starlight' },
@@ -205,8 +225,9 @@ const COLOR_PATTERNS: Array<{ re: RegExp; label: string }> = [
   { re: /\bargent\b|\bsilver\b/, label: 'Argent' },
   { re: /\bor\b|\bgold\b/, label: 'Or' },
   { re: /\bgris\s*sideral\b|\bspace\s*gray\b/, label: 'Gris sidéral' },
-  { re: /\bblac\b/, label: 'Noir' }, // typo fréquente
+  { re: /\bblac\b/, label: 'Noir' }, // typo
 ];
+
 function canonicalizeColor(raw: string): string | null {
   const t = normText(raw);
   if (!t) return null;
@@ -214,7 +235,8 @@ function canonicalizeColor(raw: string): string | null {
   for (const { re, label } of COLOR_PATTERNS) if (re.test(t)) return label;
   return null;
 }
-function extractColorFromItem(p: any): ColorExtraction {
+
+function extractColorFromItem(p: Partial<UtopyaItem>): ColorExtraction {
   if (p?.color) {
     const norm = canonicalizeColor(p.color);
     if (norm) return { raw: p.color, normalized: norm, source: 'field' };
@@ -236,9 +258,9 @@ function extractColorFromItem(p: any): ColorExtraction {
   return { raw: null, normalized: null, source: null };
 }
 
-/* ===========================
+/* =========================================================
    UI réassurance
-=========================== */
+========================================================= */
 function InfoSection() {
   const Bullet = ({ children }: { children: React.ReactNode }) => (
     <li className="flex items-start gap-3">
@@ -264,9 +286,9 @@ function InfoSection() {
   );
 }
 
-/* ===========================
+/* =========================================================
    Composant principal
-=========================== */
+========================================================= */
 type SortKey = 'name_asc' | 'price_asc' | 'price_desc';
 type Props = { initialItems: UtopyaItem[] };
 
@@ -274,7 +296,27 @@ const PAGE_SIZE = 12;
 const DEFAULT_BRAND = 'all';
 const ALLOWED_BRANDS = ['all', 'iPhone', 'Samsung', 'iPad'] as const;
 
-export default function UtopyaBrowser({ initialItems }: Props) {
+type EnrichedItem = UtopyaItem & {
+  __id: string;
+  brandTag: 'iPhone' | 'Samsung' | 'iPad' | 'Autre';
+  recency: number;
+
+  priceTTC?: number | null;
+  displayPrice?: string | null;
+  inCart?: boolean;
+  colorNormalized?: string | null;
+  gradeKey?: string | null;
+  scraped_at?: string | null;
+
+  // champs optionnels parfois présents dans le flux
+  sku?: string | null;
+  state?: string | null;
+  url?: string | null;
+  image?: string | null;
+  price?: string | null;
+};
+
+export default function SmartphonesSection({ initialItems }: Props) {
   const { ids: cartIds, addCartItem } = useCartBridge();
 
   // Filtres
@@ -290,64 +332,79 @@ export default function UtopyaBrowser({ initialItems }: Props) {
 
   // Modal
   const [open, setOpen] = useState(false);
-  const [current, setCurrent] = useState<UtopyaItem | null>(null);
+  const [current, setCurrent] = useState<EnrichedItem | null>(null);
   const closeBtnRef = useRef<HTMLButtonElement>(null);
 
   // Enrichissement
-  const enriched = useMemo(() => {
-    return (initialItems ?? []).map((it) => {
-      const btag = brandTag(it.name);
-      const cap = it.capacity ?? fallbackCapacity(it.name);
-      const priceTTC = getPriceTTCFromItem(it);
-      const displayPrice = formatTTCDisplay(priceTTC, it.price);
-      const __id = buildItemId({ ...it, capacity: cap });
-      const inCart = cartIds.has(__id);
-      const colorEx = extractColorFromItem(it);
+const enriched = useMemo<EnrichedItem[]>(() => {
+  return (initialItems ?? []).map((it) => {
+    const btag = brandTag(it.name);
+    const cap = it.capacity ?? fallbackCapacity(it.name);
+    const priceTTC = getPriceTTCFromItem(it);
+    const displayPrice = formatTTCDisplay(priceTTC, it.price);
+    const __id = buildItemId({ ...it, capacity: cap });
+    const inCart = cartIds.has(__id);
+    const colorEx = extractColorFromItem(it);
 
-      return {
-        ...it,
-        __id,
-        brandTag: btag,
-        capacity: cap,
-        priceTTC,
-        displayPrice,
-        recency: recencyScore(it.name),
-        inCart,
-        colorNormalized: colorEx.normalized,
-        gradeKey: detectGrade({ grade: it.grade, name: it.name, url: it.url }),
-      };
-    });
-  }, [initialItems, cartIds]);
+    // Accès "souple" aux champs potentiels du flux sans any
+    const loose = it as unknown as Record<string, unknown>;
+    const utopyaFields = {
+      sku: asStringOrNull(loose.sku),
+      state: asStringOrNull(loose.state),
+      url: asStringOrNull(loose.url),
+      image: asStringOrNull(loose.image),
+      price: asStringOrNull(loose.price),
+      scraped_at: asStringOrNull(loose.scraped_at), // 👈 string|null assuré
+    };
+
+    const item = {
+      ...it,
+      ...utopyaFields,
+      __id,
+      brandTag: btag,
+      capacity: cap ?? null,                
+      priceTTC,
+      displayPrice,
+      recency: recencyScore(it.name),        
+      inCart,
+      colorNormalized: colorEx.normalized,
+      gradeKey: detectGrade({ grade: it.grade, name: it.name, url: it.url }),
+    };
+
+    return item as EnrichedItem;
+  });
+}, [initialItems, cartIds]);
+
 
   // Options dynamiques
   const options = useMemo(() => {
-  const caps = new Set<string>();
-  const grades = new Set<string>();
+    const caps = new Set<string>();
+    const grades = new Set<string>();
 
-  enriched.forEach((i) => {
-    if (i.capacity) caps.add(i.capacity);
-    if (i.gradeKey && i.gradeKey !== 'Autre') grades.add(i.gradeKey);
-  });
+    enriched.forEach((i) => {
+      if (i.capacity) caps.add(i.capacity);
+      if (i.gradeKey && i.gradeKey !== 'Autre') grades.add(i.gradeKey);
+    });
 
-  const capacityOpts = ['all', ...Array.from(caps).sort((a, b) => {
-    const na = Number(a.replace(/\D/g, '')) || 0;
-    const nb = Number(b.replace(/\D/g, '')) || 0;
-    return na - nb || a.localeCompare(b);
-  })];
+    const capacityOpts = ['all', ...Array.from(caps).sort((a, b) => {
+      const na = Number(a.replace(/\D/g, '')) || 0;
+      const nb = Number(b.replace(/\D/g, '')) || 0;
+      return na - nb || a.localeCompare(b);
+    })];
 
-  const order = (g: string) => {
-    if (g === 'MixABC') return 0;
-    if (g === 'A') return 1;
-    if (g === 'B') return 2;
-    if (g === 'C') return 3;
-    return 10; // autres ensuite (A+, etc.)
-  };
-  const gradeOpts = ['all', ...Array.from(grades).sort((a, b) => order(a) - order(b) || a.localeCompare(b))];
+    const order = (g: string) => {
+      if (g === 'MixABC') return 0;
+      if (g === 'A') return 1;
+      if (g === 'B') return 2;
+      if (g === 'C') return 3;
+      return 10; // autres ensuite (A+, etc.)
+    };
+    const gradeOpts = ['all', ...Array.from(grades).sort((a, b) => order(a) - order(b) || a.localeCompare(b))];
 
-  return { capacities: capacityOpts, grades: gradeOpts };
-}, [enriched]);
+    return { capacities: capacityOpts, grades: gradeOpts };
+  }, [enriched]);
 
-  // Filtrage + tri
+  // Filtrage + tri (recency non optionnel => pas d'undefined)
   const filtered = useMemo(() => {
     const needle = q.trim().toLowerCase();
     const min = minPrice ? Number(minPrice.replace(',', '.')) : NaN;
@@ -365,13 +422,25 @@ export default function UtopyaBrowser({ initialItems }: Props) {
 
     switch (sort) {
       case 'price_asc':
-        arr = arr.sort((a, b) => (a.priceTTC ?? Infinity) - (b.priceTTC ?? Infinity) || b.recency - a.recency);
+        arr = arr.sort(
+          (a, b) =>
+            (a.priceTTC ?? Number.POSITIVE_INFINITY) -
+              (b.priceTTC ?? Number.POSITIVE_INFINITY) ||
+            b.recency - a.recency
+        );
         break;
       case 'price_desc':
-        arr = arr.sort((a, b) => (b.priceTTC ?? -Infinity) - (a.priceTTC ?? -Infinity) || b.recency - a.recency);
+        arr = arr.sort(
+          (a, b) =>
+            (b.priceTTC ?? Number.NEGATIVE_INFINITY) -
+              (a.priceTTC ?? Number.NEGATIVE_INFINITY) ||
+            b.recency - a.recency
+        );
         break;
       default:
-        arr = arr.sort((a, b) => (a.name ?? '').localeCompare(b.name ?? '') || b.recency - a.recency);
+        arr = arr.sort(
+          (a, b) => (a.name ?? '').localeCompare(b.name ?? '') || b.recency - a.recency
+        );
     }
     return arr;
   }, [enriched, q, brand, capacity, grade, minPrice, maxPrice, sort]);
@@ -379,10 +448,6 @@ export default function UtopyaBrowser({ initialItems }: Props) {
   useEffect(() => setVisible(PAGE_SIZE), [q, brand, capacity, grade, minPrice, maxPrice, sort]);
 
   // Modal helpers
-  function openModal(item: UtopyaItem) {
-    setCurrent(item);
-    setOpen(true);
-  }
   function closeModal() {
     setOpen(false);
     setCurrent(null);
@@ -396,14 +461,13 @@ export default function UtopyaBrowser({ initialItems }: Props) {
     return () => document.removeEventListener('keydown', onKey);
   }, [open]);
 
-  // Ajout au panier
-  function handleAddToCart(p: any) {
+  function handleAddToCart(p: EnrichedItem) {
     if (p?.priceTTC == null) return;
     const unitPriceCents = Math.round(Number(p.priceTTC) * 100);
     const id = String(p.__id);
     const color = p.colorNormalized ?? extractColorFromItem(p).normalized;
 
-    const item: CartItem = {
+    const item: LocalCartItem = {
       id,
       title: p.name ?? 'Smartphone reconditionné',
       type: 'device',
@@ -419,7 +483,7 @@ export default function UtopyaBrowser({ initialItems }: Props) {
         displayPrice: p.displayPrice ?? p.price ?? null,
         url: p.url ?? null,
         scrapedAt: p.scraped_at ?? null,
-        brandTag: p.brandTag ?? null,
+        brandTag: p.brandTag,
         color,
       },
     };
@@ -429,8 +493,8 @@ export default function UtopyaBrowser({ initialItems }: Props) {
   const pageItems = filtered.slice(0, visible);
 
   return (
-    <section className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6" style={{ colorScheme: 'light' }}>
-      {/* Barre de filtres (clair + chevrons custom) */}
+    <section className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 pt-6 md:pt-10" style={{ colorScheme: 'light' }}>
+      {/* Barre de filtres */}
       <div className="mb-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
         <div className="flex-1">
           <input
@@ -443,7 +507,6 @@ export default function UtopyaBrowser({ initialItems }: Props) {
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          {/* Select wrapper avec chevron */}
           <div className="relative">
             <select
               className="w-[150px] appearance-none rounded-xl border border-gray-300 bg-white px-3 py-2 pr-8 text-sm text-[#222] shadow-sm focus:outline-none focus:ring-2 focus:ring-[#54b435]"
@@ -529,7 +592,7 @@ export default function UtopyaBrowser({ initialItems }: Props) {
         </button>
       </div>
 
-      {/* Panneau filtres mobile (clair) */}
+      {/* Panneau filtres mobile */}
       {showFilters && (
         <div className="mb-4 grid gap-3 rounded-2xl border border-gray-200 bg-white p-3 md:hidden" style={{ colorScheme: 'light' }}>
           <SelectMobile value={brand} onChange={setBrand} options={ALLOWED_BRANDS.map((b) => [b, b === 'all' ? 'Toutes marques' : b] as const)} />
@@ -572,7 +635,7 @@ export default function UtopyaBrowser({ initialItems }: Props) {
         {q ? <> · “{q}”</> : null}
       </div>
 
-      {/* Grid cartes (tailles homogènes & épuré) */}
+      {/* Grid cartes */}
       {pageItems.length === 0 ? (
         <p className="text-gray-600">Aucun résultat avec ces filtres.</p>
       ) : (
@@ -589,22 +652,23 @@ export default function UtopyaBrowser({ initialItems }: Props) {
                     inCart ? 'border-emerald-300' : 'border-gray-200'
                   }`}
                 >
-                  {/* Image plus aérée */}
                   <div className="relative mb-3 h-[168px] w-full overflow-hidden rounded-xl border border-gray-100">
-                    <img
+                    <Image
                       src={p.image ?? '/placeholder.png'}
                       alt={p.name ?? 'Produit reconditionné'}
-                      className="absolute inset-0 m-auto max-h-full max-w-full object-contain p-3 transition-transform duration-200 group-hover:scale-[1.02]"
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      className="object-contain p-3 transition-transform duration-200 group-hover:scale-[1.02]"
                       loading="lazy"
+                      unoptimized
+                      loader={passthroughLoader}
                     />
                   </div>
 
-                  {/* Titre : 2 lignes, hauteur figée */}
                   <h3 className="min-h-[40px] text-[15px] font-semibold text-[#222] line-clamp-2">
                     {p.name ?? 'Modèle inconnu'}
                   </h3>
 
-                  {/* Badges spécialisés (capacité/grade/couleur) */}
                   <div className="mt-2 flex min-h-[24px] flex-wrap items-center gap-1.5 text-[11px] text-gray-600">
                     {p.capacity && <span className="rounded-full border px-2 py-0.5">{p.capacity}</span>}
                     {p.gradeKey && p.gradeKey !== 'Autre' && (
@@ -617,7 +681,6 @@ export default function UtopyaBrowser({ initialItems }: Props) {
                     )}
                   </div>
 
-                  {/* Prix */}
                   <div className="mt-3 flex items-baseline gap-2">
                     <p className="text-lg font-bold text-[#54b435]">
                       {p.displayPrice ?? p.price ?? 'Prix sur demande'}
@@ -629,7 +692,6 @@ export default function UtopyaBrowser({ initialItems }: Props) {
                     )}
                   </div>
 
-                  {/* Actions compactes (poussées en bas) */}
                   <div className="mt-auto flex gap-2 pt-3">
                     <button
                       onClick={() => handleAddToCart(p)}
@@ -647,7 +709,7 @@ export default function UtopyaBrowser({ initialItems }: Props) {
 
                     <button
                       onClick={() => {
-                        setCurrent(p as unknown as UtopyaItem);
+                        setCurrent(p);
                         setOpen(true);
                       }}
                       className="inline-flex h-9 flex-1 items-center justify-center rounded-xl border px-3 text-sm font-medium text-[#222] hover:bg-gray-50"
@@ -678,7 +740,7 @@ export default function UtopyaBrowser({ initialItems }: Props) {
       {/* Réassurance */}
       <InfoSection />
 
-      {/* Modal détails (caractéristiques) */}
+      {/* Modal détails */}
       {open && current && (
         <div
           className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/40 backdrop-blur-sm p-0 sm:p-4"
@@ -712,9 +774,11 @@ export default function UtopyaBrowser({ initialItems }: Props) {
 
             <div className="grid gap-4 p-4 sm:p-5 sm:grid-cols-2">
               <div className="col-span-1 flex items-center justify-center rounded-xl border border-gray-100 bg-white p-3">
-                <img
-                  src={(current as any).image ?? '/placeholder.png'}
+                <Image
+                  src={current.image ?? '/placeholder.png'}
                   alt={current.name ?? 'Produit reconditionné'}
+                  width={400}
+                  height={400}
                   className="max-h-72 w-auto object-contain"
                 />
               </div>
@@ -743,7 +807,12 @@ export default function UtopyaBrowser({ initialItems }: Props) {
 
                 <div className="pt-2">
                   {(() => {
-                    const key = String(buildItemId({ ...current, capacity: current.capacity ?? fallbackCapacity(current.name) }));
+                    const key = String(
+                      buildItemId({
+                        ...current,
+                        capacity: current.capacity ?? fallbackCapacity(current.name),
+                      })
+                    );
                     const inCart = cartIds.has(key);
                     const unitPrice = getPriceTTCFromItem(current);
                     return (
@@ -751,7 +820,7 @@ export default function UtopyaBrowser({ initialItems }: Props) {
                         onClick={() => {
                           if (!inCart && unitPrice != null) {
                             const color = extractColorFromItem(current).normalized;
-                            const item: CartItem = {
+                            const item: LocalCartItem = {
                               id: key,
                               title: current.name ?? 'Smartphone reconditionné',
                               type: 'device',
@@ -759,14 +828,14 @@ export default function UtopyaBrowser({ initialItems }: Props) {
                               qty: 1,
                               meta: {
                                 source: 'utopya',
-                                sku: (current as any).sku ?? null,
+                                sku: current.sku ?? null,
                                 capacity: current.capacity ?? fallbackCapacity(current.name),
-                                grade: (current as any).grade ?? null,
-                                state: (current as any).state ?? null,
+                                grade: current.grade ?? null,
+                                state: current.state ?? null,
                                 priceTTC: unitPrice,
-                                displayPrice: (current as any).price ?? null,
-                                url: (current as any).url ?? null,
-                                scrapedAt: (current as any).scraped_at ?? null,
+                                displayPrice: current.price ?? null,
+                                url: current.url ?? null,
+                                scrapedAt: current.scraped_at ?? null,
                                 brandTag: brandTag(current.name),
                                 color,
                               },
@@ -793,7 +862,9 @@ export default function UtopyaBrowser({ initialItems }: Props) {
   );
 }
 
-/* ============== UI helpers pour selects ============== */
+/* =========================================================
+   UI helpers pour selects
+========================================================= */
 function Chevron() {
   return (
     <svg

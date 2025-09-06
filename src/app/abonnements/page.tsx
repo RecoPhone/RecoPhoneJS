@@ -2,8 +2,6 @@ import HeaderSection from "./components/HeaderSection";
 import PlansSection from "./components/PlanSection";
 import AvantagesSection from "./components/AvantagesSection";
 
-import SectionSeam from "@/components/SectionSeam";
-
 
 export default function AbonnementsPage() {
   return (

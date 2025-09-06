@@ -1,24 +1,22 @@
-// src/types/utopya.ts
-
 export type UtopyaItem = {
   sku: string | null;
   name: string | null;
-  price: string | null;            // "€ 181,95"
-  price_raw_eur: number | null;    // 181.95
-  capacity: string | null;         // "256Go"
-  grade: string | null;            // "Grade A"
-  state: string | null;            // "Reconditionné" | "Fonctionnel"
-  stock: string | null;            // parfois répète la capacité
+  price: string | null;           
+  price_raw_eur: number | null;    
+  capacity: string | null;      
+  grade: string | null;           
+  state: string | null;        
+  stock: string | null;            
   url: string | null;
   image: string | null;
-  color: string | null;            // "Blanc" | "Mix Color" | ...
+  color: string | null;            
   variant_id: string | null;
   scraped_at: number | null;
 
-  // infos fournisseur (si présentes)
-  price_source?: string | null;         // "101€95"
-  price_source_raw_eur?: number | null; // 101.95
-  margin_eur?: number | null;           // 80.0
+
+  price_source?: string | null;         
+  price_source_raw_eur?: number | null; 
+  margin_eur?: number | null;           
 };
 
 export type UtopyaPayload = UtopyaItem[];
@@ -52,3 +50,31 @@ export function asUtopyaPayload(input: unknown): UtopyaPayload {
   if (!Array.isArray(input)) return [];
   return input.map(asUtopyaItem);
 }
+
+export interface UtopyaPrice {
+  amount: number;
+  currency: string;
+  updatedAt?: string;
+}
+
+export interface UtopyaImage {
+  url: string;
+  alt?: string;
+}
+
+export interface UtopyaDevice {
+  id: string;
+  brand: string;
+  model: string;
+  storage?: string;
+  condition?: string;
+  grade?: string;
+  color?: string;
+  price: UtopyaPrice;
+  images?: UtopyaImage[];
+  image?: string;
+  name?: string;
+  [key: string]: unknown;
+}
+
+export type UtopyaDeviceList = UtopyaDevice[];

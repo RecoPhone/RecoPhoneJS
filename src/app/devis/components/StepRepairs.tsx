@@ -190,7 +190,7 @@ const StepRepairs: React.FC<StepRepairsProps> = ({
 
       // 2) Fallback v1 (data: Categorie[]) — seulement réparations, pas de couleurs
       if (data && data.length) {
-        let rows: Row[] = [];
+        const rows: Row[] = [];
         // trouver modèle
         let found = null;
         for (let i = 0; i < data.length; i++) {

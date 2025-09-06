@@ -16,7 +16,7 @@ export default function HomePage() {
       <WhySection />
             <SectionSeam from="#edfbe2" to="#ffffff" height={84} />
       <AvisSection />
-            <SectionSeam from="#ffffff" to="#edfbe2" direction="down" height={84} />
+            <SectionSeam from="#ffffff" to="#edfbe2" height={84} />
       <ServicesSection />
       <FAQSection />
     </>

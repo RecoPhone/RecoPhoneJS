@@ -5,6 +5,10 @@ import { listRootFolders } from '@/lib/ftp';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
+type CardBase = { title: string; value: string; hint: string };
+type CardLink = CardBase & { href: string };
+type Card = CardBase | CardLink;
+
 export default async function AdminHome() {
   await requireAdmin();
 
@@ -14,7 +18,7 @@ export default async function AdminHome() {
     docCount = String(folders.length);
   } catch {}
 
-  const cards = [
+  const cards: readonly Card[] = [
     { title: 'Documents générés', value: docCount, hint: 'PDF devis + contrats', href: '/admin/documents' },
     { title: 'Commandes smartphones', value: '—', hint: 'Flux fournisseur' },
     { title: 'Visites du site', value: '—', hint: 'Matomo/Gtag' },
@@ -33,7 +37,7 @@ export default async function AdminHome() {
               <div className="text-3xl font-bold mt-1">{c.value}</div>
               <div className="text-xs text-gray-500 mt-2">{c.hint}</div>
               {'href' in c && (
-                <Link href={(c as any).href} className="inline-block mt-3 text-sm font-medium text-[#54b435] hover:underline">
+                <Link href={c.href} className="inline-block mt-3 text-sm font-medium text-[#54b435] hover:underline">
                   Ouvrir
                 </Link>
               )}

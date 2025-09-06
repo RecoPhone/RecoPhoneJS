@@ -5,6 +5,32 @@ import Link from 'next/link';
 import { Minus, Plus, Trash2, Smartphone, ShieldCheck, User, Phone, Mail } from 'lucide-react';
 import { useCart, type CartItem } from '@/components/CartProvider';
 
+type PlanMeta = {
+  planKey?: 'essentiel' | 'familial' | 'zen' | string;
+  devicesCount?: number;
+  devices?: string[];
+  priceMonthlyEUR?: number;
+  customer?: { name?: string; email?: string; phone?: string };
+};
+
+function hasKey<T extends object, K extends PropertyKey>(
+  obj: T | null | undefined,
+  key: K
+): obj is T & Record<K, unknown> {
+  return !!obj && typeof obj === 'object' && key in obj;
+}
+
+function isPlanItem(it: CartItem): boolean {
+  return it.type === 'plan' || hasKey(it.meta as object | null | undefined, 'planKey');
+}
+
+function metaStr(meta: unknown, key: string): string | null {
+  if (!meta || typeof meta !== 'object') return null;
+  const v = (meta as Record<string, unknown>)[key];
+  return typeof v === 'string' && v.trim() ? v : null;
+}
+
+
 /** Format EUR à partir de cents */
 function formatEUR(cents: number) {
   const value = cents / 100;
@@ -26,20 +52,6 @@ function formatColor(raw: unknown): string | null {
   const s = String(raw).trim();
   if (!s) return null;
   return s.charAt(0).toUpperCase() + s.slice(1);
-}
-
-/** Meta attendue côté abonnement (robuste si partielle/absente) */
-type PlanMeta = {
-  planKey?: 'essentiel' | 'familial' | 'zen' | string;
-  devicesCount?: number;
-  devices?: string[]; // modèles saisis
-  priceMonthlyEUR?: number;
-  customer?: { name?: string; email?: string; phone?: string };
-};
-
-function isPlanItem(it: CartItem): boolean {
-  // On considère "plan" comme type officiel, sinon fallback si meta.planKey présent
-  return it.type === 'plan' || !!(it.meta && (it.meta as any).planKey);
 }
 
 export default function CartPage() {
@@ -66,8 +78,8 @@ export default function CartPage() {
       }
       // Redirection Stripe Checkout
       window.location.href = data.url as string;
-    } catch (e: any) {
-      setErr(e?.message ?? 'Erreur lors du démarrage du paiement');
+    } catch (e: unknown) {
+      setErr(e instanceof Error ? e.message : 'Erreur lors du démarrage du paiement');
     } finally {
       setLoading(false);
     }
@@ -191,9 +203,9 @@ export default function CartPage() {
             }
 
             // Rendu par défaut (smartphones / autres produits)
-            const cap = (it.meta as any)?.capacity ?? null;
-            const grade = formatGrade((it.meta as any)?.grade);
-            const color = formatColor((it.meta as any)?.color);
+            const cap = metaStr(it.meta, 'capacity');
+            const grade = formatGrade(metaStr(it.meta, 'grade'));
+            const color = formatColor(metaStr(it.meta, 'color'));
 
             return (
               <article

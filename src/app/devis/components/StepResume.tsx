@@ -69,17 +69,6 @@ function genContractId() {
   return `RC_${String(n).padStart(5, "0")}`;
 }
 
-/* — API — */
-async function finishQuote(body: { quote: QuotePayload; contract?: ContractPayload | null; payInTwo: boolean }) {
-  const res = await fetch("/api/finish", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
-  });
-  if (!res.ok) throw new Error(await res.text());
-  return (await res.json()) as { ok: true; quoteUrl: string; contractUrl?: string | null };
-}
-
 /* — Component — */
 const StepResume = forwardRef<StepResumeHandle, StepResumeProps>(function StepResume(
   { devices, payInTwo, signatureDataUrl, aDomicile, address, appointment, client },

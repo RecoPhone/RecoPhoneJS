@@ -101,25 +101,6 @@ function utmize(href: string, campaign: string) {
 }
 
 /* ---------------------------- Composants --------------------------------- */
-function StretchedLink({
-  href,
-  label,
-  className = '',
-}: {
-  href: string;
-  label: string;
-  className?: string;
-}) {
-  // lien overlay qui rend toute la carte cliquable sans gêner le focus du bouton principal
-  return (
-    <Link
-      href={href}
-      aria-label={label}
-      tabIndex={-1}
-      className={`absolute inset-0 rounded-2xl focus:outline-none ${className}`}
-    />
-  );
-}
 
 function Bullet({ children }: { children: ReactNode }) {
   return (
@@ -197,7 +178,7 @@ export default function ServicesSection() {
           {services.map(
             (
               { eyebrow, title, description, bullets, cta, href, icon: Icon, highlight },
-              i
+              _i
             ) => {
               const url = utmize(href, title);
               const CTA_CLASSES =

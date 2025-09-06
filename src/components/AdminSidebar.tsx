@@ -19,7 +19,7 @@ const items = [
 
 const isActive = (href: string, pathname: string) =>
   href === '/admin'
-    ? pathname === '/admin'                    // <-- Dashboard UNIQUEMENT sur /admin
+    ? pathname === '/admin'
     : pathname === href || pathname.startsWith(href + '/');
 
 export function AdminMobileTrigger({
@@ -39,9 +39,16 @@ export function AdminMobileTrigger({
   );
 }
 
-function Item({
-  href, label, Icon, active, onClick, collapsed,
-}: any) {
+type ItemProps = {
+  href: string;
+  label: string;
+  Icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  active: boolean;
+  onClick?: () => void;
+  collapsed: boolean;
+};
+
+function Item({ href, label, Icon, active, onClick, collapsed }: ItemProps) {
   return (
     <Link
       href={href}
@@ -49,7 +56,7 @@ function Item({
       className={[
         'group flex items-center gap-3 rounded-xl px-3 py-2 text-sm select-none',
         active
-          ? 'bg-[#edfbe2] text-[#222] border border-[#d6f2c7] hover:bg-[#e6f5d6]' // hover UNIQUEMENT si actif
+          ? 'bg-[#edfbe2] text-[#222] border border-[#d6f2c7] hover:bg-[#e6f5d6]'
           : 'text-gray-700',
       ].join(' ')}
     >
@@ -66,11 +73,11 @@ export default function AdminSidebar() {
   const [collapsed, setCollapsed] = useState(false);
   const [openMobile, setOpenMobile] = useState(false);
 
-  // Ouvre le drawer depuis le bouton du header (même fichier)
+  // Ouvre le drawer depuis le bouton du header
   useEffect(() => {
-    const fn = () => setOpenMobile(true);
-    window.addEventListener('rp:admin-menu-open', fn as any);
-    return () => window.removeEventListener('rp:admin-menu-open', fn as any);
+    const fn: EventListener = () => setOpenMobile(true);
+    window.addEventListener('rp:admin-menu-open', fn);
+    return () => window.removeEventListener('rp:admin-menu-open', fn);
   }, []);
 
   // Lock scroll en mobile
@@ -98,8 +105,7 @@ export default function AdminSidebar() {
       })}
     </ul>
   );
-
-  return (
+    return (
     <>
       {/* DESKTOP: FULL-BLEED collée à gauche (pas de container autour) */}
       <aside

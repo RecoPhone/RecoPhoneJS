@@ -91,7 +91,6 @@ const PAGE_W = 595.28; // A4
 const PAGE_H = 841.89;
 const MARGIN = 36;
 
-const BRAND = hexToRgb("#54b435");
 const BRAND_LIGHT = rgb(0.93, 0.98, 0.92);
 const TEXT_DARK = rgb(0.10, 0.10, 0.10);
 const TEXT_MUTE = rgb(0.40, 0.40, 0.40);
@@ -237,7 +236,7 @@ function pickAppt(anyData: any): { dateISO?: string; slot?: string } {
     anyData.client?.appointmentISO ||
     undefined;
 
-  let dateISO: string | undefined = topDate;
+  const dateISO: string | undefined = topDate;
 
   let slot: string | undefined =
     anyData.appointmentSlot ||
@@ -297,7 +296,7 @@ async function drawClientCards(
   }
 
   const yStart = ctx.y;
-  let yL = drawCard(ctx.page, fonts, MARGIN, yStart, cardW, "Client", leftLines);
+  const yL = drawCard(ctx.page, fonts, MARGIN, yStart, cardW, "Client", leftLines);
   let yR = yL;
 
   // — Carte de droite : Intervention à domicile —
@@ -550,7 +549,7 @@ export async function buildContractPdfBuffer(data: ContractPayload): Promise<Uin
   let blockTop = y - desiredOffset;
 
   const available = blockTop - BOTTOM_SAFE;
-  let sigBoxH = Math.min(92, Math.max(70, available - TOTAL_H - GAP - 26));
+  const sigBoxH = Math.min(92, Math.max(70, available - TOTAL_H - GAP - 26));
   if (available < sigBoxH + TOTAL_H + GAP + 26) {
     blockTop = BOTTOM_SAFE + sigBoxH + TOTAL_H + GAP + 26;
   }

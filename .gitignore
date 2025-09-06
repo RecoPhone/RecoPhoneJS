@@ -1,7 +1,18 @@
-/node_modules
-/.next
-/.vercel
-.env*
-.DS_Store
-/out
-recophone_storage
+# Next / Node
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-error.log*
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+dist/
+.cache/
+
+# Stockage privé
+recophone_storage/

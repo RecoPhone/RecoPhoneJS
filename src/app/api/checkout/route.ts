@@ -6,13 +6,15 @@ import { PRICE_IDS, type PlanKey } from "@/lib/pricing";
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
+type SafeDict = Record<string, unknown>;
+
 type CartItem = {
   id: string;
   title: string;
   type?: "plan" | "product" | string; // tout sauf "plan" => one-shot
   unitPrice: number; // CENTIMES pour les produits one-shot
   qty: number;
-  meta?: Record<string, any>;
+  meta?: SafeDict;
 };
 
 function isPlan(item: CartItem) {
@@ -24,13 +26,19 @@ function toInt(n: unknown, fallback = 0) {
   return Number.isFinite(v) ? v : fallback;
 }
 
+function getMetaStr(meta: SafeDict | undefined, key: string): string {
+  const v = meta?.[key];
+  const s = typeof v === 'string' ? v.trim() : '';
+  return s;
+}
+
 // Construit une description lisible pour les smartphones (meta.capacity, meta.color, meta.grade)
-function productDescription(meta: Record<string, any> | undefined) {
+function productDescription(meta: SafeDict | undefined) {
   if (!meta) return "";
   const parts: string[] = [];
-  const color = meta.color ? String(meta.color).trim() : "";
-  const cap = meta.capacity ? String(meta.capacity).trim() : "";
-  let grade = meta.grade ? String(meta.grade).trim() : "";
+  const color = getMetaStr(meta, 'color');
+  const cap = getMetaStr(meta, 'capacity');
+  let grade = getMetaStr(meta, 'grade');
 
   if (color) parts.push(color.charAt(0).toUpperCase() + color.slice(1));
   if (cap) parts.push(cap);
@@ -71,81 +79,46 @@ export async function POST(req: Request) {
       }
 
       const plan = planItems[0];
-      const planKey = (plan.meta?.planKey ?? "").toString() as PlanKey;
+      const planKey = String(plan.meta?.planKey ?? "") as PlanKey;
       const priceId = PRICE_IDS[planKey];
 
       if (!priceId) {
         return NextResponse.json({ error: "Offre inconnue." }, { status: 400 });
       }
 
-      // Validation minimale des modèles d’appareils
-      const devices: string[] = Array.isArray(plan.meta?.devices) ? plan.meta.devices : [];
-      const devicesCount = Number((plan.meta?.devicesCount ?? devices.length) ?? 0);
-      if (!devicesCount || devices.length !== devicesCount) {
-        return NextResponse.json({ error: "Modèles d’appareils invalides." }, { status: 400 });
-      }
-
-      const customerEmail = plan.meta?.customer?.email || undefined;
-
       const session = await stripe.checkout.sessions.create({
-        mode: "subscription",
+        mode: 'subscription',
+        line_items: [{ price: priceId, quantity: 1 }],
         success_url: successUrl,
         cancel_url: cancelUrl,
-        customer_email: customerEmail,
-        allow_promotion_codes: true,
-        automatic_tax: { enabled: true }, // coupe si tu gères la TVA en TTC fixe
-        line_items: [{ price: priceId, quantity: 1 }],
-        subscription_data: {
-          metadata: {
-            planKey,
-            devicesCount: String(devicesCount),
-            devices: devices.join(" | "),
-            customerName: plan.meta?.customer?.name ?? "",
-            customerPhone: plan.meta?.customer?.phone ?? "",
-          },
-        },
       });
 
       return NextResponse.json({ url: session.url }, { status: 200 });
     }
 
-    // ---------- ONE-SHOT (smartphones / accessoires) (mode: payment)
-    // Tout ce qui n’est PAS "plan" est traité comme produit payable une fois
-    const line_items = oneShotItems.map((p) => {
-      const name = (p.title || "Article RecoPhone").toString().slice(0, 127);
-      const description = productDescription(p.meta);
-      const unit_amount = Math.max(50, toInt(p.unitPrice)); // minimum 0,50€ pour la sécurité
-      const quantity = Math.max(1, toInt(p.qty, 1));
-
-      return {
-        price_data: {
-          currency: "eur",
-          product_data: {
-            name,
-            ...(description ? { description } : {}),
-          },
-          unit_amount,
+    // ---------- ONE SHOT (mode: payment)
+    const lineItems = oneShotItems.map((it) => ({
+      price_data: {
+        currency: 'eur',
+        product_data: {
+          name: it.title,
+          description: productDescription(it.meta),
         },
-        quantity,
-      };
-    });
-
-    if (line_items.length === 0) {
-      return NextResponse.json({ error: "Aucun article payable trouvé." }, { status: 400 });
-    }
+        unit_amount: toInt(it.unitPrice, 0),
+      },
+      quantity: toInt(it.qty, 1),
+    }));
 
     const session = await stripe.checkout.sessions.create({
-      mode: "payment",
+      mode: 'payment',
+      line_items: lineItems,
       success_url: successUrl,
       cancel_url: cancelUrl,
-      allow_promotion_codes: true,
-      automatic_tax: { enabled: true },
-      line_items,
     });
 
     return NextResponse.json({ url: session.url }, { status: 200 });
-  } catch (err) {
-    console.error("checkout error", err);
-    return NextResponse.json({ error: "Impossible de créer la session de paiement." }, { status: 500 });
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : 'Erreur inconnue';
+    return NextResponse.json({ error: msg }, { status: 500 });
   }
 }

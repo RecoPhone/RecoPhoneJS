@@ -11,6 +11,12 @@ import QuoteCard, { QuoteDevice, QuoteItem } from "./components/QuoteCard";
 import StepResume, { StepResumeHandle } from "./components/StepResume";
 import StepSchedule from "./components/StepSchedule";
 
+export const dynamic = 'force-dynamic';
+
+const DevisFallback = () => (
+  <div className="p-4 text-sm text-gray-600">Chargement du devis…</div>
+);
+
 /* ───────── Types "catégories" + adaptateur inline v2 -> catégories ───────── */
 type Reparation = { type: string; prix: number };
 type Modele = { nom: string; reparations: Reparation[] };
@@ -57,10 +63,10 @@ function categoryLabelFromV2(brand: string, family: string): string {
 
 /* ───────── Tri chronologique des modèles (ancien → récent) ───────── */
 function romanToInt(s: string): number {
-  const m: any = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+  const m: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
   let total = 0, prev = 0;
   for (let i = s.length - 1; i >= 0; i--) {
-    const v = m[s[i].toUpperCase()] || 0;
+    const v = m[s[i].toUpperCase()] ?? 0;
     if (v < prev) total -= v;
     else { total += v; prev = v; }
   }
@@ -295,7 +301,7 @@ export default function DevisPage() {
   const removeDevice = (id: string) => {
     setDevices((prev) => prev.filter((d) => d.id !== id));
     if (activeId === id) {
-      setActiveId((prev) => {
+      setActiveId((_prev) => {
         const left = devices.filter((d) => d.id !== id);
         return left.length ? left[0].id : null;
       });
@@ -409,6 +415,7 @@ export default function DevisPage() {
 
   /* ───────── Rendu ───────── */
   return (
+    <React.Suspense fallback={<DevisFallback />}>
     <main className="mx-auto max-w-6xl px-4 py-8">
       {/* Alerte succès */}
       {showSuccess && (
@@ -758,5 +765,6 @@ export default function DevisPage() {
         </aside>
       </div>
     </main>
+     </React.Suspense>
   );
 }

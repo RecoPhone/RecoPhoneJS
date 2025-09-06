@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node server.js",
-    "clean": "rimraf .next",
-    "lint": "next lint"
+    "start": "node .next/standalone/server.js", 
+    "clean": "rimraf .next"
   },
   "dependencies": {
     "@google-analytics/data": "^5.2.0",
@@ -19,9 +18,11 @@
     "next": "14.2.32",
     "nodemailer": "^7.0.6",
     "pdf-lib": "^1.17.1",
-    "react": "^18",
-    "react-dom": "^18",
-    "stripe": "^18.5.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.34.3",
+    "stripe": "^18.5.0",
+    "bcryptjs": "^3.0.2"          
   },
   "devDependencies": {
     "@tailwindcss/line-clamp": "^0.4.4",
@@ -30,9 +31,8 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.21",
-    "bcryptjs": "^3.0.2",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.32",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.32",    
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.10",
     "typescript": "^5"

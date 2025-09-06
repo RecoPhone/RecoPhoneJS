@@ -1,53 +1,40 @@
-// src/app/smartphones/page.tsx
-import UtopyaBrowser from './components/SmartphonesSection';
-import GradesExplainer from './components/GradeExplanation';
-import { asUtopyaPayload, type UtopyaItem } from '@/types/smartphones';
+import SmartphonesSection from './components/SmartphonesSection';
+import type { UtopyaItem } from '@/types/smartphones';
+import { requiredEnv } from '@/lib/env';
 
-function unwrapArrayLike(json: unknown): unknown[] {
-  if (Array.isArray(json)) return json;
-  if (json && typeof json === 'object') {
-    const obj = json as Record<string, unknown>;
-    const keys = ['items', 'data', 'products', 'results', 'listings', 'devices', 'entries'];
-    for (const k of keys) {
-      const v = obj[k];
-      if (Array.isArray(v)) return v as unknown[];
-    }
-  }
-  return [];
-}
+export const dynamic = 'force-dynamic'; // évite un cache trop agressif en dev
+// export const revalidate = 300;       // en prod, préfère ça pour du ISR
 
 async function fetchUtopya(): Promise<UtopyaItem[]> {
-  const url =
-    process.env.UTOPYA_FEED_URL ||
-    process.env.NEXT_PUBLIC_UTOPYA_FEED_URL || '';
+  const url = requiredEnv('UTOPYA_FEED_URL');
+  const token = process.env.UTOPYA_TOKEN; // optionnel
 
-  if (!url) return [];
+  const res = await fetch(url, {
+    headers: token ? { Authorization: `Bearer ${token}` } : undefined,
+    // next: { revalidate: 300 }, // en prod: remets le revalidate
+    cache: 'no-store',            // en dev: évite de garder du vide en cache
+  });
 
-  try {
-    const res = await fetch(url, { next: { revalidate: 300 } }); // 5 min
-    if (!res.ok) return [];
-
-    const raw = await res.json();
-    const arr = unwrapArrayLike(raw);
-    const items = asUtopyaPayload(arr);
-    return items.filter((it) => it?.name);
-  } catch {
-    return [];
+  if (!res.ok) {
+    // Console claire pour dev
+    console.error('[Utopya] fetch failed', res.status, await res.text());
+    throw new Error(`Utopya fetch failed: ${res.status}`);
   }
+
+  const data = (await res.json()) as UtopyaItem[] | { items?: UtopyaItem[] };
+  // si ton endpoint renvoie { items: [...] }
+  const items = Array.isArray(data) ? data : Array.isArray(data.items) ? data.items : [];
+  return items;
 }
 
 export default async function Page() {
-  const initialItems = await fetchUtopya();
+  let items: UtopyaItem[] = [];
+  try {
+    items = await fetchUtopya();
+  } catch (e) {
+    console.error(e);
+    // Affiche un placeholder côté UI (plutôt que rien du tout)
+  }
 
-  return (
-    <main className="mx-auto max-w-7xl px-3 sm:px-4 lg:px-6 py-10">
-      <header className="mb-6">
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-[#222]">Smartphones reconditionnés</h1>
-        <p className="mt-2 text-gray-600">Des modèles testés et garantis, prêts à l’emploi.</p>
-      </header>
-
-      <UtopyaBrowser initialItems={initialItems} />
-      <GradesExplainer />
-    </main>
-  );
+  return <SmartphonesSection initialItems={items} />;
 }

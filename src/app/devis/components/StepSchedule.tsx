@@ -44,11 +44,6 @@ const addMonths    = (d: Date, m: number) => new Date(d.getFullYear(), d.getMont
 const isSameDay    = (a: Date, b: Date) => a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
 const dateKey      = (d: Date) => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 const formatDate   = (d: Date) => new Intl.DateTimeFormat("fr-BE", { weekday: "long", day: "2-digit", month: "long" }).format(d);
-const formatTime   = (minFromMidnight: number) => {
-  const h = Math.floor(minFromMidnight / 60);
-  const m = minFromMidnight % 60;
-  return `${String(h).padStart(2,"0")}:${String(m).padStart(2,"0")}`;
-};
 
 const toISOAtMinutes = (date: Date, minFromMidnight: number) => {
   const h = Math.floor(minFromMidnight / 60);

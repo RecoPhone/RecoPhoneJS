@@ -33,7 +33,7 @@ function parseLatLon(s: string): { lat: number; lon: number } | null {
   if (lat < -90 || lat > 90 || lon < -180 || lon > 180) return null;
   return { lat, lon };
 }
-function withTimeout<T>(p: Promise<T>, ms: number, signal?: AbortSignal): Promise<T> {
+function withTimeout<T>(p: Promise<T>, ms: number, _signal?: AbortSignal): Promise<T> {
   return new Promise((resolve, reject) => {
     const id = setTimeout(() => {
       reject(Object.assign(new Error("Timeout"), { name: "AbortError" }));
@@ -80,7 +80,7 @@ export async function GET(req: NextRequest) {
       }
     }
     // sinon, fallback
-  } catch (_) {
+  } catch (__) {
     // timeout ou erreur -> fallback
   }
 
